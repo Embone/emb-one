@@ -1,0 +1,17 @@
+.navbar
+{
+    background-color:#ffff;
+}
+.navbar-dark .navbar-nav .nav-item
+{
+    color:#0000;
+    font-size:16px ;
+}
+.navbar-light .navbar-nav .nav-link:hover
+{
+    text-decoration: underline;
+}
+
+  .container{
+      min-height:500px ;
+  }

@@ -1,0 +1,29 @@
+
+.homecontent
+{
+    color:cornsilk;
+    position:absolute;
+    top:50%;
+    font: size 30px;
+}
+.homecontent a
+{
+    margin-top:10px;
+}
+.mat-carousel
+{
+    height:600px;
+    width: 90px;
+    font-size: x-large;
+  }
+
+  .mat-carousel-slide{
+    height:800px;
+    width: 50px;
+    font-size: x-large;
+  }
+  .div
+  {
+      font-size:x-large;
+  }
+

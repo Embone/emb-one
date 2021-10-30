@@ -1,0 +1,58 @@
+<section class="Home">
+  <!-- <head> 
+        <meta charset="utf-8">
+        <script type="text/javascript">
+    </script>
+    </head>
+    <body>
+  <img src='https://cdn.pixabay.com/photo/2020/02/03/20/49/technology-4816658_960_720.jpg' id="social" onclick="change()">
+ 
+</body>
+    <div class="homecontent">
+    <h1>Join us for bright future</h1>
+    <a href="#" class="btn btn-lg btn-light">discover courses</a>
+    <a class="nav-link active" routerLink="join-now" class="btn btn-lg btn-primary">join now</a>
+    </div>  ---->
+  
+  <mat-carousel
+  position="center"
+    timings="250ms ease-in"
+    [autoplay]="true"
+    [interval]="1500"
+    color="accent"
+    maxWidth="90%"
+    [proportion]="50"
+    [slides]="5"
+    [loop]="true"
+      [useKeyboard]="true"
+    [useMouseWheel]="true"
+  >
+    <mat-carousel-slide
+      #matCarouselSlide
+      *ngFor="let slide of slides; let i = index"
+      [image]="slide.image"
+      overlayColor="#00000040"
+      [hideOverlay]="false"
+    >
+     <div style="width: 60%; height: 100%; display: flex; flex-direction: column; align-items:bottom-center; bottom:0px;  left:50%; justify-content: center;color:yellow; position: bottom-right; bottom: 8px; left: 16px;">
+ <!-- <P>{{i}}</P>   --->
+ <!-- Id is {{i}}  -->
+<div ngSwitch="{{i}}">
+<div *ngSwitchCase="'0'" [ngClass]="'one'"><h4>Electronic designing <br>service.</h4></div>
+<div *ngSwitchCase="'1'" [ngClass]="'two'"><h4>PLC control panel.</h4></div>
+<div *ngSwitchCase="'2'" [ngClass]="'three'"><h4>Embedded design<br> service.</h4></div>
+<div *ngSwitchCase="'3'" [ngClass]="'four'"><h4>Mechanical Design<br> Service.</h4></div>
+<div *ngSwitchCase="'4'" [ngClass]="'five'"><h4>PLC control panel.</h4></div>
+<div *ngSwitchCase="'5'" [ngClass]="'siv'"><h4>Panel design <br>service.</h4></div>
+</div> 	
+</div>  
+</mat-carousel-slide>
+</mat-carousel>
+</section> 
+
+
+
+
+
+
+    
