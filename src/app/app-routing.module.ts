@@ -8,7 +8,7 @@ import {ContactusComponent} from './contactus/contactus.component';
 import { CarrersComponent} from './carrers/carrers.component'
 import { InvalidListComponent } from './invalid-list/invalid-list.component';
 import { JoinNowComponent } from './join-now/join-now.component';
-import { EmployeeListComponent } from './employee-list/employee-list.component';
+
 
 const routes: Routes = [
   {path:'home',component: HomeComponent},
@@ -26,4 +26,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-export const routingComponents=[HomeComponent,ProductsComponent,ServicesComponent, AboutusComponent,ContactusComponent, CarrersComponent,JoinNowComponent,InvalidListComponent]
+export const routingComponents=[HomeComponent,ProductsComponent,ServicesComponent,AboutusComponent,ContactusComponent, CarrersComponent,JoinNowComponent,InvalidListComponent]

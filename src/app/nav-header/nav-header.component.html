@@ -1,8 +1,8 @@
 
-<nav class=" bg-light navbar navbar-expand-lg navbar-dark navbar fixed-top">  
+<nav class=" bg-#DFD8CA navbar navbar-expand-lg navbar-dark navbar fixed-top"> 
  
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">   
-  <a class="navbar-brand" href="#"><h5 style="color:#39A388;" ><i> Embone Technologies</i></h5></a>  
+  <a class="navbar-brand" href="#"><h5 style="color:#34BE82;" ><i> Embone Technologies</i></h5></a>  
        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
       </button>
@@ -11,7 +11,7 @@
      
  <!--<mat-icon area-hidden="true" aria-label="Example home icon" class="nav-link active" routerLink="home">home</mat-icon>-->
  <li class="nav-item active">  
-  <a class="nav-link activ testHover " routerLink="home" font color="white">Home</a>
+  <a class="nav-link active testHover " routerLink="home" color="white">Home</a>
   </li>     
   
   <!--Drop down list-->
@@ -30,11 +30,11 @@
       <div ngbDropdown class="d-inline-block">
         <a class="nav-link active" id="dropdownBasic1" ngbDropdownToggle>Industrial Automation</a> 
         <div ngbDropdownMenu aria-labelledby="dropdownBasic1">  
-          <a class="dropdown-item"> PC Based Automation Solutions</a>  
+          <a class="dropdown-item" routerLinkActive> PC Based Automation Solutions</a>  
           <a class="dropdown-item"> SCADA System</a> 
           <a class="dropdown-item"> NI LabVIEW</a>
           <a class="dropdown-item"> Qt</a>
-          <a class="dropdown-item"> PLC Based Automation</a>
+          <a class="dropdown-item" routerLink="PLC-automation"> PLC Based Automation</a>
           <a class="dropdown-item">VISION Systems</a>
           <a class="dropdown-item">  SPM</a>          
         </div></div>
@@ -50,6 +50,10 @@
      </div> </div>  
      <div class="nav-item active">  
       <a class="nav-link active  testHover" routerLink="contactus">Contact Us</a>
-    </div></ul>
+    </div>
+    <!--<div class="nav-item active">  
+      <a class="nav-link active  testHover" routerLink="side-bar">sidebar</a>
+    </div> -->
+  </ul>
   </div>
 </nav>  

@@ -1,6 +1,6 @@
 .navbar
 {  
-    background-color:#CFB784;
+    background-color:#D5D5D5;
    text-shadow:light;
     min-height: 30px;
    font-weight:white;
@@ -25,15 +25,23 @@
 }
 .h5
 {
-  font-family:monospace;
+  font-family: "nexa-script-light";
+  
 }
 .dropdown-item
 {
   font-style:normal;
-  background-color: gray;
+  background-color:burlywood;
  font-family: white;
 }
 .mat-carousel
  {
    height:70%;
+ }
+ nav-link activ testHover {
+   font-family: "Brush Script MT";
+ }
+ .bg-light 
+ {
+   background-color: aquamarine;
  }

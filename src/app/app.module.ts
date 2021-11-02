@@ -17,7 +17,6 @@ import { MatCarouselModule } from '@ngmodule/material-carousel';
 import {FormsModule,ReactiveFormsModule } from '@angular/forms';
 import { ProductSevicesComponent } from './product-sevices/product-sevices.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
-//import { MatListModule } from '@angular/material/list';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {MatDividerModule} from '@angular/material/divider';
 import { IOTGatewayComponent } from './iot-gateway/iot-gateway.component';
@@ -44,7 +43,6 @@ const routes:Routes=[
     AppComponent,
     routingComponents,
     NavHeaderComponent,
-    FooterListComponent,
     JoinNowComponent,
     EmployeeListComponent,
     StudentListComponent,
@@ -53,8 +51,8 @@ const routes:Routes=[
     ProductSevicesComponent,
     IOTGatewayComponent,
     IOTDashboardComponent,
-   // MatListModule,
-  
+    FooterListComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -74,8 +72,7 @@ const routes:Routes=[
       ],
       exports:[
     MatSidenavModule
-
-      ],
+     ],
 providers: [],
 bootstrap: [ AppComponent ]
 })

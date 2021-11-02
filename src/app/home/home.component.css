@@ -5,6 +5,7 @@
     position:absolute;
     top:50%;
     font: size 30px;
+    background-color:blue;
 }
 .homecontent a
 {
@@ -15,6 +16,7 @@
     height:600px;
     width: 90px;
     font-size: x-large;
+    background-color: aquamarine;
   }
 
   .mat-carousel-slide{
@@ -26,4 +28,4 @@
   {
       font-size:x-large;
   }
-
+ 
